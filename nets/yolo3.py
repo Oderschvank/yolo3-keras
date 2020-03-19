@@ -11,7 +11,6 @@ from keras.regularizers import l2
 from nets.darknet53 import darknet_body
 from utils.utils import compose
 
-
 #--------------------------------------------------#
 #   单次卷积
 #--------------------------------------------------#
