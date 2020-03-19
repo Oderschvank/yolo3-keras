@@ -9,6 +9,7 @@ from keras.layers import Input
 from PIL import Image, ImageFont, ImageDraw
 from nets.yolo3 import yolo_body,yolo_eval
 from utils.utils import letterbox_image
+
 class YOLO(object):
     _defaults = {
         "model_path": 'model_data/yolo_weights.h5',
