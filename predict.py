@@ -1,6 +1,6 @@
 from nets.yolo3 import yolo_body
 from keras.layers import Input
-from yolo import YOLO
+from yolocore import YOLO
 from PIL import Image
 
 yolo = YOLO()
